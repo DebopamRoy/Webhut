@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1F1F1F</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#4873A6</color>
+
+    <color name="iconOne">#9350E3</color>
+    <color name="iconTwo">#4A94EC</color>
+
+    <color name="secondColor">#FFFFFF</color>
+    <color name="firstColor">#000000</color>
+
+    <color name="cardColor">#BB787878</color>
+
+    <color name="incognitoColorOne">#B8BBBF</color>
+    <color name="incognitoColorTwo">#717375</color>
+    <color name="incognitoColorThree">#504F4F</color>
+
+
+</resources>

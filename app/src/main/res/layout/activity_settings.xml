@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".activity.SettingsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/settings_search_top_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardColor"
+            android:padding="5dp"
+            android:paddingStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/settings_back"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/settings_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/exo_semibold"
+                android:padding="10dp"
+                android:text="@string/settings"
+                android:textColor="@color/secondColor"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/settings_back"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/settings_engine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_semibold"
+        android:padding="10dp"
+        android:text="@string/choose_default_search_emgine"
+        android:textColor="@color/secondColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_search_top_cardView" />
+
+    <RadioGroup
+        android:id="@+id/settings_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_engine">
+
+        <RadioButton
+            android:id="@+id/settings_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/ic_google"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/exo"
+            android:layoutDirection="rtl"
+            android:padding="5dp"
+            android:text="@string/google"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/settings_yahoo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/ic_yahoo"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/exo"
+            android:layoutDirection="rtl"
+            android:padding="10dp"
+            android:text="@string/yahoo"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/settings_bing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/ic_bing"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/exo"
+            android:layoutDirection="rtl"
+            android:padding="10dp"
+            android:text="@string/bing"
+            android:textAlignment="textStart" />
+
+        <RadioButton
+            android:id="@+id/settings_duck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="5dp"
+            android:drawableEnd="@drawable/ic_duckduckgo"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/exo"
+            android:layoutDirection="rtl"
+            android:padding="10dp"
+            android:text="@string/duck_duck_go"
+            android:textAlignment="textStart" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

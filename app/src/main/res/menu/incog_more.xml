@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/incog_new_tab"
+        android:icon="@drawable/ic_outline_tab_24"
+        android:title="@string/new_tab" />
+
+    <item
+        android:id="@+id/incog_new_incognito"
+        android:icon="@drawable/ic_nor_incognito"
+        android:title="@string/new_incognito_tab" />
+
+    <item
+        android:id="@+id/incog_reload"
+        android:icon="@drawable/ic_baseline_refresh_24"
+        android:title="@string/reload" />
+
+    <item
+        android:id="@+id/incog_share"
+        android:icon="@drawable/ic_outline_share_24"
+        android:title="@string/share" />
+    <item
+        android:id="@+id/incog_bookmark"
+        android:icon="@drawable/ic_outline_bookmarks_24"
+        android:title="@string/bookmark" />
+    <item
+        android:id="@+id/incog_desktop"
+        android:icon="@drawable/ic_baseline_computer_24"
+        android:title="@string/desktop_site" />
+    <item
+        android:id="@+id/incog_help_feedback"
+        android:icon="@drawable/ic_outline_feedback_24"
+        android:title="@string/help_feedback" />
+
+    <item
+        android:id="@+id/incog_exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/close_incognito" />
+</menu>
