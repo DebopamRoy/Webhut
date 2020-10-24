@@ -448,6 +448,9 @@ public class IncognitoActivity extends AppCompatActivity implements PopupMenu.On
                     desktop_enable = true;
                 }
                 break;
+            case R.id.incog_help_feedback:
+                startActivity(new Intent(IncognitoActivity.this,HelpActivity.class));
+                break;
             case R.id.incog_reload:
                 if (search.getText().toString().trim().isEmpty())
                     Toasty.error(this, R.string.url_empty, Toast.LENGTH_SHORT).show();

@@ -75,7 +75,6 @@
     <string name="internshala">Internshala</string>
     <string name="bitbucket">Bit bucket</string>
     <string name="search_or_enter_web_address">Search or enter web address</string>
-    <string name="yor_mapobed">Developed by\nYOR MAPOBED</string>
     <string name="popular_websites">Popular Websites</string>
     <string name="reach_out_to_others">Reach out to others :</string>
     <string name="entertainment">Entertainment :</string>
@@ -88,4 +87,6 @@
     <string name="website_link">Website Link</string>
     <string name="unsuccessful_download">Download won\'t be successful without the permission</string>
     <string name="unsuccessful_upload">Upload won\'t be successful without the permission</string>
+    <string name="close_incognito">Close Incognito</string>
+    <string name="please_wait_feedback_form">Please wait, loading feedback form for you.</string>
 </resources>
